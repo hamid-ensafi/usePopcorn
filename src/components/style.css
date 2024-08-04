@@ -1,0 +1,258 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #212529;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+button{
+    outline: none !important;
+    border: none !important;
+}
+input {
+    outline: none;
+    border: none;
+}
+
+header {
+    padding: 1rem;
+}
+
+header>.content {
+    background-color: #6741d9;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>.content>.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+
+}
+
+header>.content>.logo>p {
+    color: #fff;
+    font-weight: bold;
+}
+
+header>.content>input {
+    padding: .5rem;
+    width: 25%;
+    color: #fff !important;
+    border-radius: .5rem;
+    background-color: #7950f2;
+}
+
+header>.content>input::placeholder {
+    color: #fff;
+    opacity: .5;
+    /* Firefox */
+}
+
+header>.content>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.main-content>.list-box {
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #2b3035;
+    border-radius: 1rem;
+}
+
+.main-content>.list-box::-webkit-scrollbar {
+    display: none;
+}
+
+.listbox-menu>li {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #fefefe22 ;
+    cursor: pointer;
+    position: relative;
+   
+}
+.listbox-menu>li>figure{
+    width: 50px;
+}
+.listbox-menu>li>figure>img{
+    width: 100%;
+}
+.info-list-box{
+    color: #fff;
+    width: 50%;
+}
+.button-content{
+    position: relative;
+}
+.button-content>button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+}
+.watch-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sum-watched{
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #1212124e;
+}
+.sum-watched>h4{
+    margin-bottom: 20px;
+    font-size: bolder;
+}
+.movie-watched-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.load{
+    font-size: 1.2rem;
+    margin-top: 15px !important;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: #fff;
+    font-weight: bolder;
+}
+.movie-content{
+    color: #fff;
+    display: flex;
+    
+
+}
+.title-more-info{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+
+    width: 50%;
+}
+.title-more-info>*{
+    margin-bottom: 10px !important;
+}
+.movie-content>figure{
+    margin: 0 !important;
+    width: 40%;
+}.movie-content>figure>img{
+    width: 100%;
+    display: block;
+}
+.info-movie-container{
+    position: relative;
+}
+.info-movie-container>.back-to-home{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    border: none;
+    outline: none;
+    top: 10px;
+    left: 10px; 
+}
+.movie-plots{
+    padding: 2rem ;
+
+}
+.movie-plots>p{
+    margin-bottom: 10px !important;
+    color: #fff;
+    font-size: 14px;
+}
+.rating-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #212529;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 1rem !important;
+}
+.test>p{
+    min-width: 10px;
+    min-height: 10px;
+    
+}
+.rating-content>button{
+    width: 100%;
+    padding: 1rem 0 !important;
+    border-radius: 20px;
+    background-color: #6741d9;
+    color: #fff;
+    cursor: pointer;
+}
+.rating-content{
+    color: #fff;
+}
+.listbox-menu>li>button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: crimson;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
